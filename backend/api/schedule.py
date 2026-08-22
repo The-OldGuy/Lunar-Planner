@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from backend.db import get_supabase
-from backend.models import ScheduleItem
+from db import get_supabase
+from models import ScheduleItem
 
 router = APIRouter()
 
