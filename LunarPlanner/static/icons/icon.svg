@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#0b0d1a"/>
+  
+  <!-- Crescent Moon -->
+  <path d="M330 140c-70 0-126 56-126 126s56 126 126 126c28 0 54-9 75-24-48-14-83-58-83-110s35-96 83-110c-21-15-47-24-75-24z"
+        fill="#f5c96b"/>
+
+  <!-- Pencil -->
+  <g transform="rotate(-25 256 256)">
+    <rect x="180" y="240" width="200" height="32" rx="8" fill="#f7f7ff"/>
+    <rect x="180" y="240" width="40" height="32" rx="8" fill="#f5c96b"/>
+    <polygon points="380,240 412,256 380,272" fill="#d18f3f"/>
+  </g>
+</svg>
