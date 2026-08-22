@@ -1,8 +1,8 @@
-import adapter from '@sveltejs/adapter-auto';
-import sveltePreprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-vercel';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 const config = {
-  preprocess: sveltePreprocess(),
+  preprocess: vitePreprocess(),
   kit: {
     adapter: adapter()
   }
