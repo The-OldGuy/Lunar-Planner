@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from backend.db import get_supabase
-from backend.models import Strategy
+from db import get_supabase
+from models import Strategy
 
 router = APIRouter()
 
