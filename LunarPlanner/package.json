@@ -1,0 +1,18 @@
+{
+  "name": "lunarplanner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sveltejs/kit": "latest",
+    "svelte": "latest"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "latest",
+    "vite": "latest"
+  }
+}
