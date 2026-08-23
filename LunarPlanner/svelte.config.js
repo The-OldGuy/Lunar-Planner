@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-vercel';
 import sveltePreprocess from 'svelte-preprocess';
 import path from 'path';
 
@@ -15,4 +15,3 @@ const config = {
 };
 
 export default config;
-
