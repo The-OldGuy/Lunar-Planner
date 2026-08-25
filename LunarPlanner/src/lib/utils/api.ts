@@ -1,4 +1,4 @@
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:10000';
+const BACKEND_URL = import.meta.env.PUBLIC_BACKEND_URL || 'http://localhost:10000';
 
 export async function getMoonData() {
   const res = await fetch(`${BACKEND_URL}/moon`);
