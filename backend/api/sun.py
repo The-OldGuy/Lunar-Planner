@@ -1,7 +1,11 @@
 from fastapi import APIRouter
+import requests
 
 router = APIRouter()
 
-@router.get("/cycle")
-def get_sun_cycle():
-    return {"sunrise": "06:12", "sunset": "20:45"}  # placeholder
+@router.get("/")
+async def get_sun():
+    url = "https://api.ipgeolocation.io/astronomy?apiKey=YOUR_API_KEY&location=Augusta,GA"
+    response = requests.get(url)
+    return response.json()
+
