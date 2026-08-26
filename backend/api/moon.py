@@ -1,11 +1,13 @@
 from fastapi import APIRouter
-import requests
 
 router = APIRouter()
 
 @router.get("/")
 async def get_moon():
-    # Example external API (you can replace with your preferred moon API)
-    url = "https://api.ipgeolocation.io/astronomy?apiKey=YOUR_API_KEY&location=Augusta,GA"
-    response = requests.get(url)
-    return response.json()
+    # Temporary placeholder data until you add a real API
+    return {
+        "phase": "Waxing Crescent",
+        "illumination": 23.5,
+        "moonrise": "2026-08-26T10:14:00",
+        "moonset": "2026-08-26T22:48:00"
+    }
